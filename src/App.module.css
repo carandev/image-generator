@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.title {
+  margin-top: 2rem;
+
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 1.2rem;
+  text-align: center;
+
+  color: var(--color-fg);
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  color: var(--color-fg);
+}
+
+.section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.section input {
+  width: 300px;
+  height: 30px;
+
+  border: none;
+  border-radius: 5px;
+  padding: 0 1rem;
+
+  outline: none;
+  background-color: var(--color-bg-soft);
+  color: var(--color-fg);
+}
+
+.section button {
+  border: none;
+  border-radius: 5px;
+  padding: .5rem 1rem;
+
+  outline: none;
+  background-color: var(--color-green);
+  color: var(--color-bg);
+}
+
+.img {
+  width: 300px;
+}
+
+.resultContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 300px;
+  height: 300px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
