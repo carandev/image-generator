@@ -61,6 +61,9 @@ const App = () => {
         </div>
       </section>            
       </main>
+      <footer className={styles.footer}>
+        <p>Hecho con ❤️  por <a href="https://github.com/carandev" target="_blank" rel="noreferrer">carandev</a></p>
+      </footer>
     </>
   )
 }

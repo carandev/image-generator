@@ -7,7 +7,7 @@
 }
 
 .title {
-  margin-top: 2rem;
+  margin-top: 6rem;
 
   text-transform: uppercase;
   font-weight: normal;
@@ -75,6 +75,20 @@
   width: 40px;
   height: 40px;
   animation: rotation 2s infinite linear;
+}
+
+.footer {
+  position: absolute;
+  top: 1rem;
+  left: calc(50% - 100px);
+  width: 200px;
+
+  color: var(--color-fg);
+  font-size: .8rem;
+}
+
+.footer a {
+  color: #8be9fd;
 }
 
 @keyframes rotation {
